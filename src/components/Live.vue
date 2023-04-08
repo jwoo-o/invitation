@@ -17,8 +17,8 @@
         <br />
       </p>
       <p class= "big">
-        오병국 / 김주남<span class="small">의 장남</span>진우<br />
-        원종윤 / 조애란<span class="small">의 장녀</span>보영<br />
+        오병국 / 김주남<span class="small">의 장남</span> 진우<br />
+        원종윤 / 조애란<span class="small">의 장녀</span> 보영<br />
       </p>
       <p class = "header">
         <br />

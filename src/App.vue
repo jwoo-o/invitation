@@ -44,8 +44,8 @@ export default {
     font-size: 15px;
 
     color: #ffffff;
-    background: #68CD86;
-    border-left: 5px solid #42A85F;
+    background: #479264;
+    border-left: 5px solid #479264;
 
 
   }

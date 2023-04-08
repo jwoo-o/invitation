@@ -90,8 +90,8 @@ export default {
       // 장소데이터의 이름정보 불러온 뒤
       const locationName = "광주 위더스"
       this.tmapUrl = "tmap://search?name=" + locationName
-      this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&amp;dest_lat=37.49878007763176&amp;dest_lng=127.03170076652506&amp;ref=localweb"
-      this.navermapUrl = "nmap://search?query=" + locationName + "&appname=kimyoon21.github.io/wedding"
+      this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&amp;dest_lat=35.16717&amp;dest_lng=126.88356&amp;ref=localweb"
+      this.navermapUrl = "nmap://search?query=" + locationName + "&appname=jwoo-o.github.io/invitation"
       this.kakaomapUrl = "kakaomap://search?q=" + locationName
     }
   }

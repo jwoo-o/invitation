@@ -5,11 +5,11 @@
     </div>
     <div class="movie">
       <video
-        poster="/wedding/img/video-thumbnail.jpg"
+        poster="/invitation/img/video-thumbnail.jpg"
         :autoplay="getOS() !== 'iOS'"
         controls
       >
-        <source src="/wedding/intro.mp4" type="video/mp4" />
+        <source src="/invitation/intro.mp4" type="video/mp4" />
       </video>
     </div>
   </div>

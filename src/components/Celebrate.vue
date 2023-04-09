@@ -11,7 +11,7 @@
           <span>혼주 [부] 오병국</span> <br>
           <span @click="copy('302-0738-2135-11')" style="font-weight: bold">농협 302-0738-2135-11</span> <br><br>
           <span>혼주 [모] 김주남</span> <br>
-          <span @click="copy('810-02-019614')" style="font-weight: bold">농협 810-02-019614</span> <br><br>
+          <span @click="copy('810-02-019641')" style="font-weight: bold">농협 810-02-019641</span> <br><br>
           <span>신랑 오진우 </span> <br>
           <span @click="copy('110-314-682771')" style="font-weight: bold">신한 110-314-682771</span> <br><br>
         </p>
@@ -55,7 +55,7 @@ export default {
         document.body.appendChild(t);
         t.value = text
         t.select();
-        
+
         document.execCommand("copy");
         document.body.removeChild(t);
 

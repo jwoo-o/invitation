@@ -48,7 +48,7 @@ export default {
       document.documentElement.clientWidth || 0,
       window.innerWidth || 0
     );
-    this.$refs.gal.scrollLeft = 600;
+    this.$refs.gal.scrollLeft = 680;
   },
 };
 </script>
@@ -81,10 +81,10 @@ export default {
       display: flex;
       width: 2000px;
       .gallery-item {
-        flex: 0 0 240px;
+        flex: 0 0 270px;
         position: relative;
-        width: 270px;
-        height: 400px;
+        width: 300px;
+        height: 500px;
         margin-right: 10px;
         &:before {
           position: absolute;
@@ -93,7 +93,7 @@ export default {
           display: block;
           content: "";
           width: 2px;
-          height: 400px;
+          height: 500px;
           background-color: #fffdf9;
           z-index: 11;
         }
@@ -104,7 +104,7 @@ export default {
           display: block;
           content: "";
           width: 2px;
-          height: 400px;
+          height: 500px;
           background-color: #fffdf9;
           z-index: 11;
         }
@@ -112,11 +112,11 @@ export default {
           position: absolute;
           top: 0;
           left: 0;
-          width: 240px;
-          height: 400px;
+          width: 270px;
+          height: 500px;
           background-image: url("~@/assets/images/arch.png");
           background-repeat: no-repeat;
-          background-size: 240px auto;
+          background-size: 270px auto;
           background-position: top left;
           z-index: 10;
         }
@@ -124,13 +124,13 @@ export default {
           position: absolute;
           top: 0;
           left: 0;
-          width: 240px;
-          height: 400px;
+          width: 270px;
+          height: 500px;
           overflow: hidden;
           img {
             transition: transform 100ms;
-            width: 296px;
-            height: 400px;
+            width: 326px;
+            height: 500px;
           }
         }
       }

@@ -51,8 +51,14 @@ export default {
   methods: {
     copy(text) {
       try {
-          navigator.clipboard.writeText(text)
-        //this.$refs.snackbar('');
+        const t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = text
+        t.select();
+        
+        document.execCommand("copy");
+        document.body.removeChild(t);
+
         this.$notify({
           group: 'foo',
           text: '계좌번호가 복사되었습니다',
